@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 __all__ = ("bind", "bindVarsToFunc", "modifyCode", "UnbindableException")
 __author__ = "KOLANICH"
 __license__ = "Unlicense"
@@ -37,6 +36,9 @@ from inspect import currentframe
 from struct import pack
 from sys import version_info
 from types import CodeType, FunctionType
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-libs/bind.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 import opcode
 
